@@ -6,7 +6,7 @@ export const Footer: FunctionComponent = () => {
     <footer className="footer">
       Created by:
       <br />
-      <a href="https://www.shawnsullivan.dev">shawnsullivan.dev</a>
+      <a className="weblink" href="https://www.shawnsullivan.dev">shawnsullivan.dev</a>
     </footer>
   )
 }

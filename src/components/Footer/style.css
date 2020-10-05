@@ -3,3 +3,13 @@
     text-align: center;
     line-height: 1.4; 
 }
+
+.weblink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.weblink:hover {
+    color: #767D92;
+    text-decoration: underline;
+}
