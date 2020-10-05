@@ -37,7 +37,7 @@
   .key--sharp.is-active,
   .key--flat:active,
   .key--flat.is-active {
-    background-color: #555;
+    background-color: #767D92;
   }
   
   .key:disabled {
@@ -54,6 +54,10 @@
   .key--flat:disabled {
     color: rgba(255, 255, 255, 0.4);
     background-color: #111;
+  }
+
+  .is-pressed {
+    background-color: #767D92;
   }
   
   .key {
