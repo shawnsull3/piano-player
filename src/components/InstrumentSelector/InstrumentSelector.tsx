@@ -6,12 +6,15 @@ import "./style.css"
 
 export const InstrumentSelector: FunctionComponent = () => {
   const { instrument, setInstrument } = useInstrument()
-  const updateValue = ({ target }: ChangeEvent<HTMLSelectElement>) =>
+  const updateValue = ({ target }: ChangeEvent<HTMLSelectElement>) => {
+    document.getElementById('instruments')!.blur()
     setInstrument(target.value as InstrumentName)
+  }
 
   return (
     <select
       className="instruments"
+      id="instruments"
       onChange={updateValue}
       value={instrument}
     >
