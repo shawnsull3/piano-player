@@ -3,8 +3,11 @@ import "./style.css"
 
 export const Logo: FunctionComponent = () => {
   return (
-    <h1 className="logo">
-      Create. Inspire. Share.
-    </h1>
+    <div>
+      <h1 className="title">
+        Melody Tinker
+      </h1>
+      <h3 className="sub-title">Create. Inspire. Share.</h3>
+    </div>
   )
 }

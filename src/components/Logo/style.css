@@ -1,8 +1,13 @@
-.logo {
+.title {
   font-size: 3rem;
   text-align: center;
   line-height: var(--logo-height);
   height: var(--logo-height);
   margin: 0;
-  padding-top: 30px;
+}
+
+.sub-title {
+  text-align: center;
+  margin: 0px;
+  margin-top: -10px;
 }
